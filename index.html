@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aylesbury Dairy Ltd</title>
+  <meta name="description" content="Local dairy delivering fresh milk & products." />
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">Aylesbury Dairy Ltd</div>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <h1>Fresh dairy delivered to your door</h1>
+        <p class="lead">From our farm to your table — fresh milk, cheese, butter and more, delivered locally.</p>
+        <p class="cta-row">
+          <a class="btn primary" href="#contact">Order / Contact</a>
+          <a class="btn" href="#products">View products</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="products" class="features container">
+      <h2>Our products</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Fresh Milk</h3>
+          <p>Pasteurised and bottled locally. Daily deliveries available.</p>
+        </article>
+        <article class="card">
+          <h3>Cheese & Dairy</h3>
+          <p>Selection of farmhouse cheeses, butter and cream.</p>
+        </article>
+        <article class="card">
+          <h3>Subscriptions</h3>
+          <p>Flexible weekly deliveries — skip, pause or cancel anytime.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h2>About us</h2>
+      <p>Aylesbury Dairy Ltd is a local family-run dairy committed to delivering high-quality dairy products across the local area. We care for our herd and use sustainable practices to keep our products fresh and delicious.</p>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Contact & Orders</h2>
+      <p>Use the form below to open an email to our team, or send directly to <a href="mailto:info@aylesburydairy.co.uk">info@aylesburydairy.co.uk</a>.</p>
+
+      <form id="contactForm">
+        <label>
+          Your name
+          <input type="text" id="name" name="name" required>
+        </label>
+        <label>
+          Your email
+          <input type="email" id="email" name="email" required>
+        </label>
+        <label>
+          Message / Order details
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </label>
+        <p class="form-actions">
+          <button type="submit" class="btn primary">Send email</button>
+          <button type="button" id="resetBtn" class="btn">Reset</button>
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>&copy; Aylesbury Dairy Ltd — All rights reserved.</small>
+      <nav class="footer-nav">
+        <a href="#privacy">Privacy</a>
+        <a href="#terms">Terms</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
